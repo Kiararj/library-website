@@ -17,13 +17,67 @@
 }
 .right-nav{
     display: flex;
+    list-style-type: none;
+    float: right;
     font-family: 'Inter', sans-serif;
     color: #FFFFFF;
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
+    padding: 50px;
 }
 .right-nav a:hover{
     color: blue;
     background-color: none;
+}
+.bottom{
+    width: 1440px;
+    height: 429px;
+    background: #D9D9D9;
+    display: flex;
+}
+h2{
+    font-family: Konit, sans-serif;
+    padding-top: 47px;
+    padding-left: 221px;
+    padding-bottom: 47px;
+    font-size: 32px;
+    text-shadow: 2px 2px #a09a9a;
+}
+p{
+    font-family: Inter, sans-serif;
+    padding-left: 95px;
+    padding-right: 95px;
+    padding-bottom: 47px;
+    text-shadow: 2px 2px #a09a9a;
+}
+button{
+    font-family: Inter, sans-serif; 
+    background-color:black;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
+}
+.button{
+    padding-top: 47px;
+    padding-left: 300px;
+    padding-bottom: 47px;
+}
+.bottom-right{
+padding-right: 218px;
+padding-top: 14px;
+}
+.footer{
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #D9D9D9;
+    color: white;
+    text-align: center;
+    font-family: Inter, sans-serif; 
 }
